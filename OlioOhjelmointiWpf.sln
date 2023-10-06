@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlioOhjelmointiWpf", "OlioOhjelmointiWpf\OlioOhjelmointiWpf.csproj", "{79C62164-E87C-45F9-AF6C-71B175A69085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kiuas", "kiuas\kiuas.csproj", "{41C7A933-D2E4-4372-90F0-2DC8249B580D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kiuas", "kiuas\kiuas.csproj", "{41C7A933-D2E4-4372-90F0-2DC8249B580D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albumi", "Albumi\Albumi.csproj", "{8C744704-82D0-4BBC-8766-CD117555DCED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{41C7A933-D2E4-4372-90F0-2DC8249B580D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41C7A933-D2E4-4372-90F0-2DC8249B580D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41C7A933-D2E4-4372-90F0-2DC8249B580D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C744704-82D0-4BBC-8766-CD117555DCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C744704-82D0-4BBC-8766-CD117555DCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C744704-82D0-4BBC-8766-CD117555DCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C744704-82D0-4BBC-8766-CD117555DCED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
