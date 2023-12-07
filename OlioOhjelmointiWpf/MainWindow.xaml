@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:OlioOhjelmointiWpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="300">
-    <Grid Margin="0,0,0,-8">
+    <Grid Margin="0,0,0,-8" Background="LightBlue">
+        <!-- Lisää taustaväri tähän -->
         <Button x:Name="button" Content="Aseta auton tiedot" HorizontalAlignment="Left" Margin="126,201,0,0" VerticalAlignment="Top" Width="119" Height="30" Click="button_Click"/>
         <TextBox x:Name="maxSpeedTextBox" HorizontalAlignment="Left" Height="26" Margin="125,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Text="0"/>
         <Label Content="Huippunopeus:" HorizontalAlignment="Left" Margin="34,19,0,0" VerticalAlignment="Top"/>

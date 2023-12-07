@@ -1,0 +1,21 @@
+﻿<Window x:Class="Talowpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Talowpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="LightBlue">
+        <!-- Lisää taustaväri tähän -->
+        <Button x:Name="keittioValotButton" Content="keittiö valot" HorizontalAlignment="Left" Margin="301,164,0,0" VerticalAlignment="Top" Click="Button_Click" Height="20" Width="99"/>
+        <CheckBox x:Name="keittioValotCheckbox" Content="Keittiö valot " HorizontalAlignment="Left" Margin="400,169,0,0" VerticalAlignment="Top" Width="16" IsEnabled="False" RenderTransformOrigin="0.888,0.533" Checked="keittioValotCheckbox_Checked"/>
+        <Button x:Name="olohuoneenValotButton" Content="olohuoneen valot" HorizontalAlignment="Left" Margin="431,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.167,0.323" Width="115" Click="olohuone"/>
+        <CheckBox x:Name="olohuoneenValotCheckbox" Content="" HorizontalAlignment="Left" Margin="546,169,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.084,-0.381" Width="21" IsEnabled="False"/>
+        <TextBlock x:Name="lampotilaText" HorizontalAlignment="Left" Margin="136,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Slider x:Name="lampotilaSlider" HorizontalAlignment="Left" Margin="101,165,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.483,0.691" ValueChanged="lampotilaSlider_ValueChanged" Minimum="21" Maximum="45" Value="21"/>
+        <CheckBox x:Name="lukitseoviCheckbox" Content="" HorizontalAlignment="Left" Margin="663,169,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.242,0.599"/>
+        <Button x:Name="LukitseoviButton" Content="Lukitse ovi" HorizontalAlignment="Left" Margin="592,164,0,0" VerticalAlignment="Top" Width="71" Click="lukitseovi"/>
+        <Label Content="Lämpötila" HorizontalAlignment="Left" Margin="123,125,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.484,0.248"/>
+    </Grid>
+</Window>

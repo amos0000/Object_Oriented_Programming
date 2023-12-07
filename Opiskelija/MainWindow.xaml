@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfStudentApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Opiskelija Sovellus" Height="350" Width="400">
+    <Grid Background="LightBlue">
+        <!-- Lisää taustaväri tähän -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="178*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="3">
+            <Label Content="Etunimi:"/>
+            <TextBox x:Name="txtFirstName" Margin="5"/>
+
+            <Label Content="Sukunimi:"/>
+            <TextBox x:Name="txtLastName" Margin="5"/>
+
+            <Label Content="OpiskelijaID:"/>
+            <TextBox x:Name="txtStudentID" Margin="5"/>
+
+            <Label Content="Sähköposti:"/>
+            <TextBox x:Name="txtEmail" Margin="5"/>
+
+            <Label Content="Puhelinnumero:"/>
+            <TextBox x:Name="txtPhoneNumber" Margin="5"/>
+
+            <StackPanel Margin="5">
+                <Button Content="Lisää Opiskelija" Click="btnAddStudent_Click"/>
+                <Button Content="Tallenna tiedostoon" Click="btnSaveToFile_Click"/>
+                <Button Content="Lataa tiedostosta" Click="btnLoadFromFile_Click"/>
+            </StackPanel>
+
+            <StackPanel>
+                <Label Content="Opiskelijat:"/>
+                <TextBlock x:Name="txtStudentsList"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
